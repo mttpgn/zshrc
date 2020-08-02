@@ -6,6 +6,6 @@ function mkcd {
   cd $newdir
 }
 
-export PATH="$PATH:/usr/local/sbin:/var/opt:/Users/mttpgn/.local/bin"                                           
+export PATH="$PATH:/usr/local/sbin:/var/opt:/Users/$USER/.local/bin"                                           
 
 tmux
